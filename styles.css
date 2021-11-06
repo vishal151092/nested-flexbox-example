@@ -1,0 +1,30 @@
+.page-wrap {
+  border: 5px solid black;
+  height: 600px;
+  /* display: flex; */
+}
+aside {
+  background: lightgreen;
+  padding: 20px;
+  /*   flex: 1 1 0; */
+}
+main {
+  background: lightblue;
+  padding: 20px;
+  /*   flex: 3 1 0; */
+  /* display: flex; */
+  /*   flex-direction: column; */
+}
+section {
+  padding: 10px 20px;
+  /*   flex: 1 1 auto; */
+}
+section:nth-child(1) {
+  background: darkcyan;
+}
+section:nth-child(2) {
+  background: turquoise;
+}
+section:nth-child(3) {
+  background: aquamarine;
+}
